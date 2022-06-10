@@ -1,0 +1,4 @@
+/*! 
+ Build based on gin-vue-admin 
+ Time : 1654852887000 */
+System.register(["../gva/gin-vue-admin-index-legacy.1654852887000.js"],(function(t){"use strict";var e;return{setters:[function(t){e=t.s}],execute:function(){t("c",(function(t){return e({url:"/statisticsLog/createStatisticsLog",method:"post",data:t})})),t("a",(function(t){return e({url:"/statisticsLog/deleteStatisticsLog",method:"delete",data:t})})),t("d",(function(t){return e({url:"/statisticsLog/deleteStatisticsLogByIds",method:"delete",data:t})})),t("u",(function(t){return e({url:"/statisticsLog/updateStatisticsLog",method:"put",data:t})})),t("f",(function(t){return e({url:"/statisticsLog/findStatisticsLog",method:"get",params:t})})),t("g",(function(t){return e({url:"/statisticsLog/getStatisticsLogList",method:"get",params:t})}))}}}));
